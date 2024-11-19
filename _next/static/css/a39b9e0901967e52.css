@@ -1,0 +1,180 @@
+.game-layout_gameLayout__bgIOR {
+    display: flex;
+    flex-wrap: wrap
+}
+
+@media(max-width:992px) {
+    .game-layout_gameLayout__bgIOR {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 24px;
+        gap: 24px
+    }
+}
+
+.game-layout_gameLayout__bgIOR>:not(.game-layout_gameLayoutColumnRow__0wXiL)+* {
+    margin-left: 24px
+}
+
+@media(max-width:1700px) {
+    .game-layout_gameLayout__bgIOR>:not(.game-layout_gameLayoutColumnRow__0wXiL)+* {
+        margin-left: 24px
+    }
+}
+
+@media(max-width:992px) {
+    .game-layout_gameLayout__bgIOR>:not(.game-layout_gameLayoutColumnRow__0wXiL)+* {
+        margin: 0
+    }
+}
+
+.game-layout_gameLayoutColumn__q01vS {
+    display: flex;
+    flex-direction: column
+}
+
+.game-layout_gameLayoutColumn__q01vS>*+* {
+    margin-top: 24px
+}
+
+@media(max-width:1700px) {
+    .game-layout_gameLayoutColumn__q01vS>*+* {
+        margin-top: 24px
+    }
+}
+
+.game-layout_gameLayoutColumnLeft__55fuZ {
+    width: 35%
+}
+
+@media(max-width:1700px) {
+    .game-layout_gameLayoutColumnLeft__55fuZ {
+        width: 35%
+    }
+}
+
+@media(max-width:992px) {
+    .game-layout_gameLayoutColumnLeft__55fuZ {
+        width: 100%
+    }
+}
+
+.game-layout_gameLayoutColumnRight__oj_7g {
+    width: calc(65% - 24px)
+}
+
+@media(max-width:1700px) {
+    .game-layout_gameLayoutColumnRight__oj_7g {
+        width: calc(65% - 24px)
+    }
+}
+
+@media(max-width:992px) {
+    .game-layout_gameLayoutColumnRight__oj_7g {
+        width: 100%
+    }
+}
+
+.game-layout_gameLayoutColumnAnotherLeft__uOx3g {
+    width: 32%
+}
+
+@media(max-width:992px) {
+    .game-layout_gameLayoutColumnAnotherLeft__uOx3g {
+        width: 100%
+    }
+}
+
+.game-layout_gameLayoutColumnAnotherRight__j_wQx {
+    width: calc(68% - 30px)
+}
+
+@media(max-width:1700px) {
+    .game-layout_gameLayoutColumnAnotherRight__j_wQx {
+        width: calc(68% - 24px)
+    }
+}
+
+@media(max-width:992px) {
+    .game-layout_gameLayoutColumnAnotherRight__j_wQx {
+        width: 100%
+    }
+}
+
+.game-layout_gameLayoutColumnRow__0wXiL {
+    width: 100%;
+    margin-bottom: 30px
+}
+
+@media(max-width:1700px) {
+    .game-layout_gameLayoutColumnRow__0wXiL {
+        margin-bottom: 24px
+    }
+}
+
+@media(max-width:992px) {
+    .game-layout_gameLayoutColumnRow__0wXiL {
+        margin: 0
+    }
+}
+
+.dice_diceGame__t__6l {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    min-height: 328px;
+    border-radius: 12px;
+    background: url(/_next/static/media/dice-game-bg.6af9c382.png) bottom/cover no-repeat;
+    padding: 16px
+}
+
+@media(max-width:992px) {
+    .dice_diceGame__t__6l {
+        min-height: 308px
+    }
+    .dice_diceGame__t__6l .dice_gameInputs__pDBrD {
+        margin-top: 40px
+    }
+}
+
+.dice_gameHistory__z_ghW {
+    display: flex;
+    gap: 8px;
+    height: 24px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding-right: 50px
+}
+
+.dice_gameHistory__z_ghW .dice_historyItem__K6rDy {
+    border-radius: 8px;
+    padding: 4px 12px;
+    cursor: pointer
+}
+
+.dice_gameHistory__z_ghW .dice_historyItem__K6rDy.dice_win__8au6l {
+    background: linear-gradient(180deg, #fbd03b, #fd9e12);
+    color: #6a4a0e
+}
+
+.dice_gameHistory__z_ghW .dice_historyItem__K6rDy.dice_loss__Gme16 {
+    background-color: #39416d;
+    color: #f9faff
+}
+
+.dice_diceLayout__3y9TH {
+    min-width: 340px
+}
+
+@media(max-width:992px) {
+    .dice_diceLayout__3y9TH {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between
+    }
+    .dice_diceLayout__3y9TH .dice_actions__5HcgN {
+        order: -1;
+        margin-top: 8px;
+        margin-bottom: 14px
+    }
+}
